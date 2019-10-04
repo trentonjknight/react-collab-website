@@ -1,5 +1,6 @@
 import React from 'react';
 import VicPicture from '../assets/vic.png';
+import Modal from './Modal';
 
 const Footer = () => {
     return (
@@ -13,6 +14,7 @@ const Footer = () => {
             <div className="col-6 col-md">
                 <h5>Features</h5>
                 <ul className="list-unstyled text-small">
+                <Modal/>
                 <li><a className="text-muted" href="/">Cool stuff</a></li>
                 <li><a className="text-muted" href="/">Random feature</a></li>
                 <li><a className="text-muted" href="/">Team feature</a></li>
