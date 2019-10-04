@@ -3,14 +3,11 @@ import React from 'react';
 
 function Vshoes(){
     return(
-        <div className="Vshoes">
-            <header className="Vshoes-header">
-            <h1>TGIF</h1>
-            <p>Beer</p>
-            <p>music</p>
-
-
-            </header>
+        <div className="jumbotron jumbotron-fluid">
+            <div className="container">
+                <h1 className="display-4">Victor's Everyday Footwear</h1>
+                    <p className="lead">Walk comfortably in our endless selection of footwear styles for the adventurer in you!</p>
+            </div>
         </div>
     )
 }

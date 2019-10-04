@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Vshoes from './Components/Vshoes'
 import Nav from './Components/Nav';
