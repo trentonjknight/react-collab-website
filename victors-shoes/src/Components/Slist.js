@@ -22,10 +22,10 @@ function Slist () {
                 </div>
             </div>
           <div class="card">
-                <ReactPlayer url={video} playing loop />
+                <ReactPlayer url={video} playing loop  width="100%" height="100%" />
                 <div class="card-body">
                 <h5 class="card-title">Fancy Shoes</h5>
-                <p class="card-text">Look this fancy video for shoes.</p>
+                <p class="card-text">These shoes looks like come from a jewelry!.</p>
                 <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
