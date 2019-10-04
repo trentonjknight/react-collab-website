@@ -8,8 +8,8 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <>
-    <Vshoes/>
     <Nav/>
+    <Vshoes/>
     <Slist/>
     <Footer/>
     </>
