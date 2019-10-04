@@ -42,11 +42,19 @@
     border: 3px solid rgb(117, 209, 63);
   }
 }
-
 .off {
   background-color: yellow;
   padding: 10px;
   transform: rotate(35deg);
   border: 1px solid black;
+}
+.x {
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black!important;
+  cursor: pointer;
 }
 /* END POPUP CSS */
