@@ -12,7 +12,7 @@ function Carousel(){
                         <img src="https://images.complex.com/complex/images/c_limit,dpr_auto,q_90,w_720/fl_lossy,pg_1/y1gdarwadxuyvv66zqwj/new-balance-990-v5" className="d-block w-50" alt="..."></img>
         </div>
                 <div className="carousel-item">
-                       <img src="..." className="d-block w-50" alt="..."></img>
+                       <img src="https://i0.wp.com/cleus.co/wp-content/uploads/2019/03/Screenshot-2019-03-14-at-4.23.07-PM.png?resize=939%2C919&ssl=1" className="d-block w-50" alt="..."></img>
         </div>
     </div>
                 <a className="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
