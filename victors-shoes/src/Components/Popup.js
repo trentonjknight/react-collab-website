@@ -15,7 +15,7 @@ useEffect(() => {
 useEffect(() => {
     setTimeout(() => {
         setFlash('popup card');
-    }, 1000);
+    }, 10000);
     setTimeout(() => {
         setFlash('popup card d-none');
     },70000);
