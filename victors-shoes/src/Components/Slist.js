@@ -22,7 +22,7 @@ function Slist () {
                 </div>
             </div>
           <div class="card">
-                <ReactPlayer url={video} playing loop />
+                <ReactPlayer url={video} playing loop  width="100%" height="100%" />
                 <div class="card-body">
                 <h5 class="card-title">Fancy Shoes</h5>
                 <p class="card-text">Look this fancy video for shoes.</p>
