@@ -4,6 +4,7 @@ import Vshoes from './Components/Vshoes'
 import Nav from './Components/Nav';
 import Slist from './Components/Slist';
 import Footer from './Components/Footer';
+import Modal from './Components/Modal';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
     <Nav/>
     <Vshoes/>
     <Slist/>
+    <Modal/>
     <Footer/>
     </>
   );
