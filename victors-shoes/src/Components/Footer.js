@@ -1,5 +1,8 @@
 import React from 'react';
 import VicPicture from '../assets/vic.png';
+import Nav from "./Nav"
+ import IosWalk from 'react-ionicons/lib/IosWalk'
+
 
 const Footer = () => {
     return (
