@@ -15,6 +15,9 @@ function App() {
     <Popup/>
     <Carousel/>
     <Slist/>
+
+    <Modal/>
+
     <Footer/>
     </>
   );
