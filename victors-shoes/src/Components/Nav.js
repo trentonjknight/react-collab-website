@@ -6,6 +6,7 @@ import IosWalk from 'react-ionicons/lib/IosWalk'
 
 
 //import Nav from './Nav.css'
+import './Nav.css';
 
 function Navbar () {
     return(
