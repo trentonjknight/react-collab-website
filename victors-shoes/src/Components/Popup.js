@@ -4,8 +4,9 @@ import '../App.css';
 const Popup = () => {
 
 const [flash, setFlash] = useState('');
-// const [count, setCount] = useState(0);
+const [count, setCount] = useState(0);
 
+setInterval(() => setCount(count+1), 1000);
 
 useEffect(() => {
     setTimeout(() => {
@@ -13,7 +14,7 @@ useEffect(() => {
                 <div className="popup card">
                     <div className="card-header">
                         <div class="alert alert-warning" role="alert">
-                        Flash Sale<span className="off float-right">50% OFF</span>
+                        Flash Sale <span className="off float-right">50% OFF</span>
                         </div>
                     </div>
                     <div className="card-body">
@@ -35,6 +36,7 @@ useEffect(() => {
 
     return (
         <>
+        {count}
         {flash}
         </>
     );
