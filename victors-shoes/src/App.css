@@ -23,8 +23,7 @@
 
 /* START POPUP CSS */
 .popup {
-  width: 600px;
-  height: 400px;
+  /* width: 800px; */
   background-color: red;
   animation: flash 1s infinite;
   position: absolute;
@@ -42,5 +41,12 @@
     background-color: #e50000;
     border: 3px solid rgb(117, 209, 63);
   }
+}
+
+.off {
+  background-color: yellow;
+  padding: 10px;
+  transform: rotate(35deg);
+  border: 1px solid black;
 }
 /* END POPUP CSS */
