@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Vshoes from './Components/Vshoes'
 import Nav from './Components/Nav';
 import Slist from './Components/Slist';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
     <Vshoes/>
     <Nav/>
     <Slist/>
+    <Footer/>
     </>
   );
 }
