@@ -1,5 +1,10 @@
 import React from 'react';
 import Nav from './Nav.css'
+import { render } from 'react-dom'
+import LogoNodejs from 'react-ionicons/lib/LogoNodejs'
+
+
+
 
 function Navbar () {
     return(
@@ -13,24 +18,22 @@ function Navbar () {
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
       <li className="nav-item active">
-
       </li>
       <li className="nav-item">
         <a className="nav-link" href="http://ebay.us/59zo54?cmpnId=5338273189">Sale</a>
       </li>
       <li className="nav-item dropdown">
         <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Collections
         </a>
         <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Action</a>
-          <a className="dropdown-item" href="#">Another action</a>
+          <a className="dropdown-item" href="#">Summer/Spring</a>
+          <a className="dropdown-item" href="#">Winter/Fall</a>
           <div className="dropdown-divider"></div>
-          <a className="dropdown-item" href="#">Something else here</a>
         </div>
       </li>
       <li className="nav-item">
-        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
       </li>
     </ul>
     <form className="form-inline my-2 my-lg-0">
