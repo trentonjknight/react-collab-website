@@ -14,7 +14,7 @@ const MyModal = (props) => {
     setModal(false);
   }
 
-  
+
     return (
       <div>
         <Button color="danger" onClick={openModal}>To see Victor Naked</Button>
