@@ -3,6 +3,12 @@ import '../App.css';
 import sadMario from '../assets/marioFail.gif';
 import happyMario from '../assets/happyMario.gif';
 
+import gameOver from '../assets/sound/gameOver.wav';
+import win from '../assets/sound/win.wav';
+import UIfx from 'uifx';
+
+const bell = new UIfx(gameOver);
+ 
 
 
 const Popup = () => {
@@ -22,14 +28,15 @@ useEffect(() => {
 useEffect(() => {
     setTimeout(() => {
         setFlash('popup card');
-    }, 1000);
+    }, 10000);
     setTimeout(() => {
         setSad('sadVic');
-    }, time)
+        bell.play();
+    }, time);
     setTimeout(() => {
         setFlash('popup card d-none');
         setSad('d-none');
-    },80000);
+    },74000);
 }, [setFlash]);
 
 const stop = () => {
@@ -41,7 +48,7 @@ const buyHandle = () => {
     setTimeout(() => {
         setHappy('d-none');
         setSad('d-none');
-    },5000)
+    },7000)
     setFlash('d-none');
     setTime(0);
 }
