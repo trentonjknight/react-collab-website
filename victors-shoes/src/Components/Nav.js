@@ -1,7 +1,7 @@
 import React from 'react';
-import Nav from './Nav.css'
-import { render } from 'react-dom'
-import LogoNodejs from 'react-ionicons/lib/LogoNodejs'
+// import Nav from './Nav.css'
+// import { render } from 'react-dom'
+// import LogoNodejs from 'react-ionicons/lib/LogoNodejs'
 import IosWalk from 'react-ionicons/lib/IosWalk'
 
 
@@ -20,15 +20,15 @@ function Navbar () {
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a className="nav-link" target="_blank"href="http://ebay.us/59zo54?cmpnId=5338273189">Sale</a>
+        <a className="nav-link" target="_blank" rel="noopener noreferrer" href="http://ebay.us/59zo54?cmpnId=5338273189">Sale</a>
       </li>
       <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="//" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Dropdown
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a className="dropdown-item" href="#">Summer/Spring</a>
-          <a className="dropdown-item" href="#">Winter/Fall</a>
+          <a className="dropdown-item" href="//">Summer/Spring</a>
+          <a className="dropdown-item" href="//">Winter/Fall</a>
         </div>
       </li>
       <li class="nav-item">
