@@ -18,9 +18,7 @@ const [flash, setFlash] = useState('popup card d-none');
 const [count, setCount] = useState(70);
 const [sad, setSad] = useState('d-none');
 const [happy, setHappy] = useState('d-none');
-const [time, setTime] = useState(70000);
-
-console.log(setTime);
+// const [time, setTime] = useState(25000);
 
 useEffect(() => {
     setTimeout(() => {
@@ -29,20 +27,18 @@ useEffect(() => {
 },[count])
 
 useEffect(() => {
-    // show popup after 10s
     setTimeout(() => {
         setFlash('popup card');
     }, 10000);
-    // show sad img & sound after 70s from loading page
     setTimeout(() => {
         setSad('sadVic');
         vicOver.play();
-    }, time);
+    }, 70000);
     setTimeout(() => {
         setFlash('popup card d-none');
         setSad('d-none');
     },74000);
-}, [setFlash, setTime]);
+}, [setFlash]);
 
 const stop = () => {
     setFlash('popup card d-none');
@@ -56,7 +52,7 @@ const buyHandle = () => {
         setSad('d-none');
     },7000)
     setFlash('d-none');
-    setTime(0);
+    // setTime(0);
 }
     return (
         <>
