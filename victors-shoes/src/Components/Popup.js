@@ -1,10 +1,17 @@
 import React, {useEffect, useState} from 'react';
 import '../App.css';
+import sadMario from '../assets/marioFail.gif';
+import happyMario from '../assets/happyMario.gif';
+
+
 
 const Popup = () => {
 
 const [flash, setFlash] = useState('popup card d-none');
 const [count, setCount] = useState(70);
+const [sad, setSad] = useState('d-none');
+const [happy, setHappy] = useState('d-none');
+const [time, setTime] = useState(70000);
 
 useEffect(() => {
     setTimeout(() => {
@@ -15,17 +22,29 @@ useEffect(() => {
 useEffect(() => {
     setTimeout(() => {
         setFlash('popup card');
-    }, 10000);
+    }, 1000);
+    setTimeout(() => {
+        setSad('sadVic');
+    }, time)
     setTimeout(() => {
         setFlash('popup card d-none');
-    },70000);
+        setSad('d-none');
+    },80000);
 }, [setFlash]);
 
 const stop = () => {
     setFlash('popup card d-none');
     setCount(0);
 }
-
+const buyHandle = () => {
+    setHappy('happyVic');
+    setTimeout(() => {
+        setHappy('d-none');
+        setSad('d-none');
+    },5000)
+    setFlash('d-none');
+    setTime(0);
+}
     return (
         <>
         <div className={flash}>
@@ -39,8 +58,14 @@ const stop = () => {
                 <h5 className="card-title">Victor's Left Shoe</h5>
                 <p className="card-text">We are selling the most famous shoe of victor, <br/>the left one because the right one has been eaten by his dog.</p>
                 <p className="card-text">Sale Ends in <span class="badge badge-pill badge-danger">{count}</span> seconds</p>
-                <a href="/" className="btn btn-primary">Buy Now!</a>
+                <button onClick={buyHandle} className="btn btn-primary">Buy Now!</button>
             </div>
+        </div>
+        <div className={sad}>
+            <img src={sadMario} alt="sadMario" />
+        </div>
+        <div className={happy}>
+            <img src={happyMario} alt="happyMario"/>
         </div>
         </>
     );
