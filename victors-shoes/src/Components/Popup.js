@@ -58,7 +58,7 @@ const buyHandle = () => {
         <>
         <div className={flash}>
             <div className="card-header">
-                <div class="alert alert-warning" role="alert">
+                <div className="alert alert-warning" role="alert">
                 <span onClick={stop} className="x float-right">X</span>
                 Flash Sale <span style={{color: 'black', fontWeight: 'bold'}}>$499.99</span><span className="off float-right">50% OFF</span>
                 </div>
@@ -66,7 +66,7 @@ const buyHandle = () => {
             <div className="card-body">
                 <h5 className="card-title">Victor's Left Shoe</h5>
                 <p className="card-text">We are selling the most famous shoe of victor, <br/>the left one because the right one has been eaten by his dog.</p>
-                <p className="card-text">Sale Ends in <span class="badge badge-pill badge-danger">{count}</span> seconds</p>
+                <p className="card-text">Sale Ends in <span className="badge badge-pill badge-danger">{count}</span> seconds</p>
                 <button onClick={buyHandle} className="btn btn-primary">Buy Now!</button>
             </div>
         </div>
