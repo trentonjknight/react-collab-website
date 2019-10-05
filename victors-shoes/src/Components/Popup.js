@@ -7,7 +7,8 @@ import gameOver from '../assets/sound/gameOver.wav';
 import win from '../assets/sound/win.wav';
 import UIfx from 'uifx';
 
-const bell = new UIfx(gameOver);
+const vicOver = new UIfx(gameOver);
+const vicWin = new UIfx(win);
  
 
 
@@ -19,6 +20,8 @@ const [sad, setSad] = useState('d-none');
 const [happy, setHappy] = useState('d-none');
 const [time, setTime] = useState(70000);
 
+console.log(setTime);
+
 useEffect(() => {
     setTimeout(() => {
         if (count !== 0) setCount(count -1);
@@ -26,24 +29,27 @@ useEffect(() => {
 },[count])
 
 useEffect(() => {
+    // show popup after 10s
     setTimeout(() => {
         setFlash('popup card');
     }, 10000);
+    // show sad img & sound after 70s from loading page
     setTimeout(() => {
         setSad('sadVic');
-        bell.play();
+        vicOver.play();
     }, time);
     setTimeout(() => {
         setFlash('popup card d-none');
         setSad('d-none');
     },74000);
-}, [setFlash]);
+}, [setFlash, setTime]);
 
 const stop = () => {
     setFlash('popup card d-none');
     setCount(0);
 }
 const buyHandle = () => {
+    vicWin.play();
     setHappy('happyVic');
     setTimeout(() => {
         setHappy('d-none');
