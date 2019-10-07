@@ -3,7 +3,7 @@ import React from 'react';
 
 function Carousel(){
     return(
-            <div id="carouselExampleControls" className="carousel slide" data-ride="carousel">
+            <div id="carouselExampleControls" className="carousel slide mb-5" data-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                         <img src="https://stockx.imgix.net/Adidas-JS-Wings-Solid-Gold.jpg?fit=fill&bg=FFFFFF&w=700&h=500&auto=format,compress&q=90&trim=color&updated_at=1538080256&w=1000" className="d-block w-50" alt="..."></img>
