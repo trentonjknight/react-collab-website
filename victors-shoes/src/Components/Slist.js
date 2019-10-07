@@ -12,7 +12,7 @@ let video = 'https://underarmour.scene7.com/is/content/Underarmour/V6.5/360Video
 
     return(
     <>
-          <div className="card-group">
+          <div className="card-deck">
             <div className="card">
                 <img className="card-img-top" src={image1} alt="Card 1 cap"/>
                 <div className="card-body">
