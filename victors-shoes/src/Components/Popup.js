@@ -18,13 +18,14 @@ const [flash, setFlash] = useState('popup card d-none');
 const [count, setCount] = useState(70);
 const [sad, setSad] = useState('d-none');
 const [happy, setHappy] = useState('d-none');
-// const [time, setTime] = useState(25000);
+// const [time, setTime] = useState(70000);
 
 useEffect(() => {
     setTimeout(() => {
         if (count !== 0) setCount(count -1);
     },1000)
 },[count])
+
 
 useEffect(() => {
     setTimeout(() => {

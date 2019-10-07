@@ -7,12 +7,11 @@
 .navBarEntire{
     background-color: #4169E1;
     background: linear-gradient(94deg, mediumblue,navy, black);
+    color: white!important;
 }
-
-#navbarDropdown{
-
+.navBarEntire a {
+    color: white;
 }
-
-.nav-linkSale{
-
+.navBarEntire a:hover {
+    color: #4169E1;
 }
