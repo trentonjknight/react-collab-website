@@ -12,7 +12,7 @@ let video = 'https://underarmour.scene7.com/is/content/Underarmour/V6.5/360Video
 
     return(
     <>
-          <div className="card-group">
+          <div className="card-deck">
             <div className="card">
                 <img className="card-img-top" src={image1} alt="Card 1 cap"/>
                 <div className="card-body">
@@ -22,7 +22,7 @@ let video = 'https://underarmour.scene7.com/is/content/Underarmour/V6.5/360Video
                 </div>
             </div>
           <div className="card">
-                <ReactPlayer className="videoLoop" url={video} playing loop /> 
+                <ReactPlayer className="videoLoop" url={video} playing loop />
                 <div className="card-body">
                 <h5 className="card-title">Fancy Shoes</h5>
                 <p className="card-text">These shoes looks like come from a jewelry!.</p>
