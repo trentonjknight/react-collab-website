@@ -22,7 +22,7 @@ let video = 'https://underarmour.scene7.com/is/content/Underarmour/V6.5/360Video
                 </div>
             </div>
           <div className="card border-primary">
-                <ReactPlayer className="videoLoop" url={video} playing loop />
+                <ReactPlayer className="videoLoop" url={video} playing='true' loop width='99%' height='100%'/>
                 <div className="card-body">
                 <h5 className="card-title">Fancy Shoes</h5>
                 <p className="card-text">These shoes looks like come from a jewelry!.</p>
