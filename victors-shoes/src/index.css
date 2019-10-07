@@ -7,9 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .videoLoop {
-  width: 100%;
-  height: 100%;
-}  
+  margin-top: -148px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

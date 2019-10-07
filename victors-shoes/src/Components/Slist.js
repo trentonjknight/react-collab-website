@@ -12,8 +12,8 @@ let video = 'https://underarmour.scene7.com/is/content/Underarmour/V6.5/360Video
 
     return(
     <>
-          <div className="card-deck">
-            <div className="card">
+          <div className="card-deck m-3">
+            <div className="card border-primary">
                 <img className="card-img-top" src={image1} alt="Card 1 cap"/>
                 <div className="card-body">
                 <h5 className="card-title">Basketball Sneakers</h5>
@@ -21,15 +21,15 @@ let video = 'https://underarmour.scene7.com/is/content/Underarmour/V6.5/360Video
                 <p className="card-text"><small className="text-muted">Last updated 3 secs ago</small></p>
                 </div>
             </div>
-          <div className="card">
-                <ReactPlayer className="videoLoop" url={video} playing={true} loop={true} /> 
+          <div className="card border-primary">
+                <ReactPlayer className="videoLoop" url={video} playing='true' loop width='99%' height='100%'/>
                 <div className="card-body">
                 <h5 className="card-title">Fancy Shoes</h5>
                 <p className="card-text">These shoes looks like come from a jewelry!.</p>
                 <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-          <div className="card">
+          <div className="card border-primary">
                 <img className="card-img-top" src={image2} alt="Card 3 cap"/>
                 <div className="card-body">
                 <h5 className="card-title">Sport Shoes</h5>
