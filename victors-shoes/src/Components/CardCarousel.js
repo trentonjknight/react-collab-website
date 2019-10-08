@@ -12,7 +12,7 @@ function CardCarousel(){
                             <div className="card-body">
                                 <h5 className="card-title">Big shoe game</h5>
                                 <p className="card-text">Everyday im shufflin. Buy more shoes. Endless possibilities</p>
-                                <a href="#" className="btn btn-primary">Buy this pair</a>
+                                <button className="btn btn-primary">Buy this pair</button>
                             </div>
                         </div>
                         <div className="card border-primary text-center">
@@ -20,7 +20,7 @@ function CardCarousel(){
                             <div className="card-body">
                                 <h5 className="card-title">Big shoe game</h5>
                                 <p className="card-text">Everyday im shufflin. Buy more shoes. Endless possibilities</p>
-                                <a href="#" className="btn btn-primary">Buy this pair</a>
+                                <button className="btn btn-primary">Buy this pair</button>
                             </div>
                         </div>
                         <div className="card border-primary text-center">
@@ -28,7 +28,7 @@ function CardCarousel(){
                             <div className="card-body">
                                 <h5 className="card-title">Big shoe game</h5>
                                 <p className="card-text">Everyday im shufflin. Buy more shoes. Endless possibilities</p>
-                                <a href="#" className="btn btn-primary">Buy this pair</a>
+                                <button className="btn btn-primary">Buy this pair</button>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function CardCarousel(){
                             <div className="card-body">
                                 <h5 className="card-title">Big shoe game</h5>
                                 <p className="card-text">Everyday im shufflin. Buy more shoes. Endless possibilities</p>
-                                <a href="#" className="btn btn-primary">Buy this pair</a>
+                                <button className="btn btn-primary">Buy this pair</button>
                             </div>
                         </div>
                         <div className="card border-primary text-center">
@@ -48,7 +48,7 @@ function CardCarousel(){
                             <div className="card-body">
                                 <h5 className="card-title">Big shoe game</h5>
                                 <p className="card-text">Everyday im shufflin. Buy more shoes. Endless possibilities</p>
-                                <a href="#" className="btn btn-primary">Buy this pair</a>
+                                <button className="btn btn-primary">Buy this pair</button>
                             </div>
                         </div>
                         <div className="card border-primary text-center">
@@ -56,21 +56,21 @@ function CardCarousel(){
                             <div className="card-body">
                                 <h5 className="card-title">Big shoe game</h5>
                                 <p className="card-text">Everyday im shufflin. Buy more shoes. Endless possibilities</p>
-                                <a href="#" className="btn btn-primary">Buy this pair</a>
+                                <button className="btn btn-primary">Buy this pair</button>
                             </div>
                         </div>
                     </div>
                 </div>
 
             </div>
-            <a className="carousel-control-prev bg-light" href="#carouselExampleControls1" role="button" data-slide="prev">
+            <button className="carousel-control-prev bg-light" href="#carouselExampleControls1" data-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span className="sr-only">Previous</span>
-            </a>
-            <a className="carousel-control-next bg-light" href="#carouselExampleControls1" role="button" data-slide="next">
+            </button>
+            <button className="carousel-control-next bg-light" href="#carouselExampleControls1" data-slide="next">
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
                 <span className="sr-only">Next</span>
-            </a>
+            </button>
         </div>
     )
 }
