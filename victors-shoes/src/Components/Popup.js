@@ -25,7 +25,7 @@ const Popup = () => {
             runSad();
             stop();
         }
-    },[count]);
+    },[count, end]);
     
 
     useEffect(() => {
