@@ -1,17 +1,12 @@
-# Victor Shoes Store
-## We gonna try to sell the Victor's worn shoes !
+# Victor's Shoestore
+## We're trying to sell Victor's worn shoes !
+### Instructions
+### To view the landing page, follow the steps below in order.
+$ cd victors-shoes
 
-### First Step do that:
-```
-cd victors-shoes
-```
-### then do that:
-``` 
-npm install
-```
-### and that:
-```
-npm start
+$ npm install
+
+$ npm start
 ```
 
-check you browser it should be open in http://localhost:3000/
+check your browser it should be open in http://localhost:3000/

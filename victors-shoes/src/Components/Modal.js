@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
-import NakedVic from '../assets/mario.jpg';
+import vshoe from '../assets/vshoe.jpg';
 
 const MyModal = (props) => {
 
@@ -17,11 +17,11 @@ const MyModal = (props) => {
 
     return (
       <div>
-        <Button color="danger" onClick={openModal}>To see Victor Naked</Button>
+        <Button color="danger" onClick={openModal}>Our most exclusive sale!</Button>
         <Modal isOpen={modal} toggle={toggle} className="modal-content text-center">
-          <ModalHeader toggle={toggle}>Victor at 20years old Naked</ModalHeader>
+          <ModalHeader toggle={toggle}>Victor's Prized posession, his worn shoes!</ModalHeader>
           <ModalBody>
-            <img src={NakedVic} alt="" width="100%"/>
+            <img src={vshoe} alt="" width="100%"/>
           </ModalBody>
           <ModalFooter>
             <Button color="primary" onClick={toggle}>Buy his shoes</Button>{' '}
